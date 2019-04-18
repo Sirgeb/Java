@@ -1,7 +1,7 @@
 import java.lang.*;
 
 public class Person {
-  int age;
+  int age; 
 
   public Person(int personAge) {
     age = personAge;
@@ -13,8 +13,12 @@ public class Person {
   }
 
   public static void main(String[] args) {
-    Person gabby = new Person(24);
-    System.out.println(gabby.age);
-    System.out.println(gabby.sayAge());
+    Person Gabriel = new Person(24);
+    Person Ngozi = new Person(32);  
+    System.out.println(Gabriel.sayAge());
+    System.out.println(Gabriel.age);
+    System.out.println(Ngozi.age);
+    System.out.println(Ngozi.sayAge()); 
   }
+
 }
